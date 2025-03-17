@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .photo-container {
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 320px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Street Photography</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="nature.html">Nature Photography</a>
+        <a href="food.html">Food Photography</a>
+        <a href="portrait.html">Portrait Photography</a>
+        <a href="still_life.html">Still Life Photography</a>
+        <a href="street.html">Street Photography</a>
+    </nav>
+    <section>
+        <h2>Street Photography</h2>
+        <p>Street photography is all about capturing candid moments in public spaces, showcasing the raw, unfiltered essence of everyday life. Unlike posed photography, it thrives on spontaneity, focusing on the interplay between people and their surroundings. From a lone figure deep in thought to the energy of a bustling city street, these images tell stories through fleeting, unscripted moments. Natural light and real-time shooting play a crucial role in preserving the authenticity of each scene. Imperfections are embraced, as they add to the charm and unpredictability of the genre. To remain unobtrusive, street photographers often blend into the environment, using wide-angle lenses for immersive compositions or telephoto lenses for a more distant perspective.</p>
+        
+        <div class="gallery">
+            <div class="photo-container">
+                <img src="street1.jpg" alt="Street Photo 1">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/500s</p>
+                <p><strong>Aperture:</strong> F/4–F/7</p>
+                <p><strong>ISO:</strong> 800–1000</p>
+            </div>
+            <div class="photo-container">
+                <img src="street2.jpg" alt="Street Photo 2">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/250s</p>
+                <p><strong>Aperture:</strong> F/5-F/8</p>
+                <p><strong>ISO:</strong> 800-1000</p>
+            </div>
+            <div class="photo-container">
+                <img src="street3.jpg" alt="Street Photo 3">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/1000s</p>
+                <p><strong>Aperture:</strong> F/4</p>
+                <p><strong>ISO:</strong> 400</p>
+            </div>
+            <div class="photo-container">
+                <img src="street4.jpg" alt="Street Photo 4">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/800s</p>
+                <p><strong>Aperture:</strong> F/6.1</p>
+                <p><strong>ISO:</strong> 200</p>
+            </div>
+            <div class="photo-container">
+                <img src="street5.jpg" alt="Street Photo 5">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/640s</p>
+                <p><strong>Aperture:</strong> F/8</p>
+                <p><strong>ISO:</strong> 320</p>
+            </div>
+            <div class="photo-container">
+                <img src="street6.jpg" alt="Street Photo 6">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/400s</p>
+                <p><strong>Aperture:</strong> F/7.1</p>
+                <p><strong>ISO:</strong> 250</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Photography Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

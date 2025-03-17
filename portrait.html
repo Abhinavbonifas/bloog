@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .photo-container {
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 320px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portrait Photography</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="nature.html">Nature Photography</a>
+        <a href="food.html">Food Photography</a>
+        <a href="portrait.html">Portrait Photography</a>
+        <a href="still_life.html">Still Life Photography</a>
+        <a href="street.html">Street Photography</a>
+    </nav>
+    <section>
+        <h2>Portrait Photography</h2>
+        <p>Portrait photography is the art of capturing a subject’s personality, mood, and essence, often through close-up shots that emphasize facial expressions and body language. Unlike other photography styles that focus on landscapes or objects, portraits are centered on the individual, highlighting their unique features and emotions. A well-executed portrait can communicate anything from joy and confidence to introspection and depth. Lighting is a key element, shaping the atmosphere and enhancing the subject’s features through techniques like Rembrandt or butterfly lighting. While post-processing helps refine the image by adjusting skin tones, sharpness, and color balance, maintaining the authenticity of the subject is crucial. Ultimately, portrait photography aims to create a compelling connection between the viewer and the person in the frame.</p>
+        
+        <div class="gallery">
+            <div class="photo-container">
+                <img src="portrait1.jpg" alt="Portrait Photo 1">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/60s</p>
+                <p><strong>Aperture:</strong> F/2.8-F/5.1</p>
+                <p><strong>ISO:</strong> 200-400</p>
+            </div>
+            <div class="photo-container">
+                <img src="portrait2.jpg" alt="Portrait Photo 2">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/500s-1/1000s</p>
+                <p><strong>Aperture:</strong> F/8-F/11</p>
+                <p><strong>ISO:</strong> 200-450</p>
+            </div>
+            <div class="photo-container">
+                <img src="portrait3.jpg" alt="Portrait Photo 3">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/500s</p>
+                <p><strong>Aperture:</strong> F/8</p>
+                <p><strong>ISO:</strong> 800</p>
+            </div>
+            <div class="photo-container">
+                <img src="portrait4.jpg" alt="Portrait Photo 4">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/400s</p>
+                <p><strong>Aperture:</strong> F/8.2</p>
+                <p><strong>ISO:</strong> 600</p>
+            </div>
+            <div class="photo-container">
+                <img src="portrait5.jpg" alt="Portrait Photo 5">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/125s</p>
+                <p><strong>Aperture:</strong> F/4-F/5.6</p>
+                <p><strong>ISO:</strong> 600-800</p>
+            </div>
+            <div class="photo-container">
+                <img src="portrait6.jpg" alt="Portrait Photo 6">
+                <h3>Camera Settings</h3>
+                <p><strong>Shutter Speed:</strong> 1/200s</p>
+                <p><strong>Aperture:</strong> F/5.6</p>
+                <p><strong>ISO:</strong> 400</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Photography Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
